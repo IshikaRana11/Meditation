@@ -1,0 +1,91 @@
+body {
+  background-image: url(paranayam\ wallpaper.jpg);
+  background-size: cover;
+}
+.top {
+  color: #4169e1;
+  text-align: center;
+  font-size: 2cm;
+  margin: 0;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.left {
+  color: #ffd700;
+  width: 75vh;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-top: 30px;
+  height: 8cm;
+  text-align: center;
+  font-size: 1.5cm;
+  border-radius: 1.5cm;
+  /* background-color: white; */
+}
+.right {
+  border-radius: 40px;
+  background-color: white;
+  height: 5cm;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 290px;
+}
+.lefts {
+  margin-left: 60px;
+  height: 5cm;
+  width: 60vh;
+  margin-top: 200px;
+}
+.rights {
+  color: #850785;
+  margin-bottom: 30px;
+  margin-right: 35px;
+  margin-top: 200px;
+  height: 8cm;
+  width: 75vh;
+  font-size: 1.2cm;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.button {
+  background-color: #800080;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #663399;
+}
+
+.button::before {
+  content: "\1F54F";
+  font-size: 20px;
+  margin-right: 5px;
+}
+#btn {
+  font-size: 1cm;
+  color: rgb(210, 58, 58);
+  margin-left: 40%;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: #c8e6c9;
+}
+.mainimg {
+  width: 100vh;
+  margin-left: 30%;
+}
+footer {
+  background-color: rgb(113, 237, 194);
+  color: white;
+  height: 2cm;
+  margin: 0;
+}
