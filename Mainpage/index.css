@@ -5,17 +5,16 @@
   margin-top: 0;
 }
 body {
-  background-image: url("photo1.jpg");
+  background-image: url("./mainbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 marquee {
   font-size: 35px;
-  color: red;
+  color: #cd5a3594;
 }
 .main {
   display: flex;
-  /* flex-direction: column; */
   background-color: black;
   display: block;
   justify-content: space-evenly;
@@ -23,11 +22,15 @@ marquee {
   width: 75vh;
   margin-bottom: 30px;
   margin-left: 20px;
-  height: 8cm;
+  height: 7cm;
   text-align: center;
   font-size: 1.5cm;
   border-radius: 1.5cm;
+  transition: transform 0.2s;
 }
 a {
   text-decoration: none;
+}
+.main:hover {
+  transform: scale(0.85);
 }

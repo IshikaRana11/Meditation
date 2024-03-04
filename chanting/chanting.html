@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudraksha Chanting Mala</title>
+    <style>
+      /* CSS to rotate the image */
+      #rudrakshaMala {
+        transition: transform 1s ease;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="chanting.css" />
+  <body>
+    <!-- Image to rotate -->
+    <img
+      id="rudrakshaMala"
+      src="chantingmala.jpg"
+      alt="Chanting Mala"
+      width="200"
+      height="200"
+    />
+
+    <script>
+      // JavaScript to handle the rotation on click
+      const rudrakshaMala = document.getElementById("rudrakshaMala");
+      let rotationAngle = 0;
+
+      rudrakshaMala.addEventListener("click", () => {
+        rotationAngle += 10; // Incremental rotation angle
+        rudrakshaMala.style.transform = `rotate(${rotationAngle}deg)`;
+      });
+    </script>
+  </body>
+</html>
