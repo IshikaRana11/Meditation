@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./paranayam.css" />
     <style>
-      /* Additional CSS for responsiveness */
+      /* Additional CSS for responsiveness and design */
       body {
         background-image: url(paranayam_wallpaper.jpg);
         background-size: cover;
@@ -22,35 +22,30 @@
         margin-top: 20px;
       }
 
-      .first,
-      .second {
+      .content-container {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin: 20px;
       }
 
       .left,
-      .rights {
+      .right {
         color: #ffd700;
-        width: 90%;
-        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 1.5rem;
         padding: 20px;
         text-align: center;
         font-size: 1.5rem;
-        border-radius: 1.5rem;
-        background-color: rgba(255, 255, 255, 0.8);
+        width: 45%;
       }
 
-      .right,
-      .lefts {
-        margin: 20px;
-      }
-
-      .right img,
-      .lefts img {
-        max-width: 100%;
+      .right img {
+        width: 100%;
+        max-width: 300px;
         height: auto;
+        margin-top: 20px;
+        border-radius: 10px;
       }
 
       .container {
@@ -83,25 +78,25 @@
     <header>
       <h1 class="top">HARE KRISHNA!</h1>
     </header>
-    <div class="first">
+    <div class="content-container">
       <div class="left">
-        Pranayama referred to as the art of breath control, holds a central
+        Pranayama, referred to as the art of breath control, holds a central
         place in the yogic tradition, offering a pathway to inner peace,
         vitality, and spiritual growth.
       </div>
       <div class="right">
-        <img src="fright.jpg" alt="" />
+        <img src="fright.jpg" alt="Pranayama Image" />
       </div>
     </div>
-    <div class="second">
-      <div class="lefts">
-        <img src="breath.png" alt="" />
+    <div class="content-container">
+      <div class="right">
+        <img src="breath.png" alt="Breathing Exercises Image" />
       </div>
-      <div class="rights">
+      <div class="left">
         Breathing exercises, often overlooked in our fast-paced lives, are
         powerful tools for cultivating calmness, focus, and overall well-being.
         By consciously regulating the breath, we tap into the body's innate
-        ability to promote relaxation and reduce stress
+        ability to promote relaxation and reduce stress.
         <div class="container">
           <a href="./breath.html" class="button">START >></a>
         </div>
