@@ -5,22 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./paranayam.css" />
+    <style>
+      /* Additional CSS for responsiveness */
+      body {
+        background-image: url(paranayam_wallpaper.jpg);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .top {
+        color: #4169e1;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 20px;
+      }
+
+      .first,
+      .second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+      }
+
+      .left,
+      .rights {
+        color: #ffd700;
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+
+      .right,
+      .lefts {
+        margin: 20px;
+      }
+
+      .right img,
+      .lefts img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .container {
+        margin-top: 20px;
+      }
+
+      .button {
+        background-color: #800080;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .button:hover {
+        background-color: #663399;
+      }
+
+      .link {
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="top">HARE KRISHNA!</h1>
+    <header>
+      <h1 class="top">HARE KRISHNA!</h1>
+    </header>
     <div class="first">
       <div class="left">
-        Pranayama referred as the art of breath control, holds a central place
-        in the yogic tradition, offering a pathway to inner peace, vitality, and
-        spiritual growth.
+        Pranayama referred to as the art of breath control, holds a central
+        place in the yogic tradition, offering a pathway to inner peace,
+        vitality, and spiritual growth.
       </div>
       <div class="right">
-        <img src="fright.jpg" />
+        <img src="fright.jpg" alt="" />
       </div>
     </div>
     <div class="second">
       <div class="lefts">
-        <img src="breath.png" />
+        <img src="breath.png" alt="" />
       </div>
       <div class="rights">
         Breathing exercises, often overlooked in our fast-paced lives, are
@@ -28,9 +103,7 @@
         By consciously regulating the breath, we tap into the body's innate
         ability to promote relaxation and reduce stress
         <div class="container">
-          <a href="./breath.html">
-            <button class="button">START>>></button>
-          </a>
+          <a href="./breath.html" class="button">START >></a>
         </div>
       </div>
     </div>
