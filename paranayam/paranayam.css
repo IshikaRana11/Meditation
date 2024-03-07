@@ -80,12 +80,9 @@ body {
   font-size: 20px;
   margin-right: 5px;
 }
-#btn {
-  font-size: 1cm;
-  color: rgb(210, 58, 58);
-  margin-left: 40%;
-  border-radius: 20px;
-}
 a {
   text-decoration: none;
+}
+.link {
+  margin-left: 18cm;
 }

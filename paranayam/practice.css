@@ -10,58 +10,9 @@
   border: 1px solid black;
   height: 8cm;
   margin: 1cm;
-  margin-left: 2cm;
+  padding-left: 23cm;
   background-color: white;
   border-radius: 2cm;
-}
-button {
-  color: black;
-  border-radius: 10px;
-  margin-left: 2cm;
-  margin-bottom: 0.8cm;
-  font-size: 2cm;
-  margin-top: 2cm;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.second {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
-  height: 8cm;
-  background-color: white;
-  border-radius: 2cm;
-  margin: 1cm;
-  margin-left: 2cm;
-}
-.third {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
-  height: 8cm;
-  background-color: white;
-  border-radius: 2cm;
-  margin: 1cm;
-  margin-left: 2cm;
-}
-.forth {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
-  height: 8cm;
-  background-color: white;
-  border-radius: 2cm;
-  margin: 1cm;
-  margin-left: 2cm;
-}
-.fifth {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
-  height: 8cm;
-  background-color: white;
-  border-radius: 2cm;
-  margin: 1cm;
-  margin-left: 2cm;
 }
 body {
   background-color: #013220;
