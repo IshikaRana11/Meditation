@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="top" style="font-family: Arial, Helvetica, sans-serif">
-        Hare Krishna!
-      </h1>
-      <marquee behavior="repeat"
-        >Hare Krishna! Hare Krishna, Krishna Krishna Hare Hare! Hare Rama! Hare
-        Rama ,Rama Rama Hare Hare! Radhe Radhe!</marquee
-      >
-    </header>
-    <a href="/meditation/index.html">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    /* Additional CSS for responsiveness */
+    @media only screen and (max-width: 600px) {
+      .main {
+        width: 90vw; /* Adjusted width for smaller screens */
+        margin-left: 5px; /* Adjusted margin for smaller screens */
+        height: auto; /* Adjusted height to auto for smaller screens */
+        font-size: 1.2cm; /* Adjusted font size for smaller screens */
+        border-radius: 0.8cm; /* Adjusted border-radius for smaller screens */
+      }
+
+      .top {
+        font-size: 40px; /* Adjusted font size for smaller screens */
+      }
+
+      marquee {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="top" style="font-family: Arial, Helvetica, sans-serif">
+      Hare Krishna!
+    </h1>
+    <marquee behavior="repeat"
+      >Hare Krishna! Hare Krishna, Krishna Krishna Hare Hare! Hare Rama! Hare
+      Rama ,Rama Rama Hare Hare! Radhe Radhe!</marquee
+    >
+  </header>
+  <a href="/meditation/index.html">
     <div
       class="main"
       style="
@@ -28,21 +48,21 @@
     Meditation
    </div>
   </a>
+  </div>
+  <a href="/paranayam/paranamayam.html">
+    <div
+      class="main"
+      style="
+        background-image: url('paranayam.jpg');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      Paranayam
     </div>
-    <a href="/paranayam/paranamayam.html">
-      <div
-        class="main"
-        style="
-          background-image: url('paranayam.jpg');
-          background-size: cover;
-          background-position: center;
-        "
-      >
-        Paranayam
-      </div>
-    </a>
-    <a href="/chanting/chanting.html">
-      <div
+  </a>
+  <a href="/chanting/chanting.html">
+    <div
       class="main"
       style="
         background-image: url('chanting.jpg');
@@ -50,8 +70,8 @@
         background-position: center;
       "
     >
-    Chanting
+      Chanting
     </div>
-    </a>
-  </body>
+  </a>
+</body>
 </html>
