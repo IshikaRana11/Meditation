@@ -1,5 +1,5 @@
 .top {
-  color: #4169e1;
+  color: #362c05;
   text-align: center;
   font-size: 2cm;
   margin: 0;
@@ -8,14 +8,18 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-  height: 8cm;
-  margin: 1cm;
+  height: 7cm;
+  margin: 2cm;
   padding-left: 23cm;
-  background-color: white;
+  background-image: url("asana11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 2cm;
 }
 body {
-  background-color: #013220;
+  background-image: url("wp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 img {
   margin-right: 2cm;
