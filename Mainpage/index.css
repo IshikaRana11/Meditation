@@ -47,13 +47,13 @@ a {
   }
 
   .top {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   /* Making the main divs stack vertically */
   .main {
     width: 90%;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
