@@ -34,5 +34,25 @@ a {
 .main:hover {
   transform: scale(0.85);
 }
-body {
+/* Original CSS for laptop screens */
+/* Keep this as is */
+
+/* Responsive CSS for mobile screens */
+@media only screen and (max-width: 600px) {
+  /* Adjustments for mobile screens */
+
+  /* Resetting default styles */
+  header {
+    text-align: center;
+  }
+
+  .top {
+    font-size: 24px;
+  }
+
+  /* Making the main divs stack vertically */
+  .main {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
