@@ -16,7 +16,7 @@
 }
 .first .left {
   font-style: italic;
-  margin-left: 1cm;
+  margin-left: 4cm;
   padding-top: 2cm;
   font-weight: 1000;
   color: black;
@@ -33,7 +33,7 @@ img {
 a {
   text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     background-image: url("wp.jpg");
   }
