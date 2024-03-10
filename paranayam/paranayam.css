@@ -1,5 +1,5 @@
 body {
-  background-image: url(paranayam\ wallpaper.jpg);
+  background-image: url("paranayam\ wallpaper.jpg");
   background-size: cover;
 }
 .top {
@@ -36,12 +36,13 @@ body {
 .second {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 290px;
+  /* margin-bottom: 290px; */
 }
 .lefts {
   margin-left: 60px;
   height: 3cm;
   width: 30vh;
+  /* margin-bottom: 50px; */
   /* margin-top: 200px; */
 }
 .rights {
@@ -53,14 +54,8 @@ body {
   width: 75vh;
   font-size: 1cm;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-a {
+.last {
+  margin-bottom: 5px;
   text-decoration: none;
   display: flex;
-  justify-content: center;
 }
