@@ -8,13 +8,19 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-  height: 7cm;
   margin: 2cm;
-  padding-left: 23cm;
   background-image: url("asana11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2cm;
+}
+.first .left {
+  font-style: italic;
+  margin-left: 4cm;
+  padding-top: 2cm;
+  font-weight: 1000;
+  color: black;
+  font-size: 1cm;
 }
 body {
   background-image: url("wp.jpg");
