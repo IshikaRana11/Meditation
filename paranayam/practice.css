@@ -47,12 +47,12 @@ a {
     color: black;
     text-align: center;
     padding-bottom: 3cm;
+    margin-right: 1.5cm;
   }
   .first {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    margin-right: 1.7cm;
     padding: 1cm;
     background-color: white;
     border-radius: 1cm;
