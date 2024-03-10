@@ -51,6 +51,21 @@
           font-size: 0.8cm; /* Decrease font size */
         }
       }
+      .my-button {
+        border-radius: 10px; /* Adjust the value for more or less curvature */
+        border: 2px solid #eebc1d; /* Border color */
+        padding: 10px 20px; /* Padding for inner content */
+        background-color: #7a7b7d; /* Button background color */
+        color: #060606; /* Text color */
+        font-size: 1.2em; /* Font size */
+        cursor: pointer; /* Cursor style on hover */
+        transition: background-color 0.3s ease; /* Smooth color transition on hover */
+      }
+
+      /* Hover effect: Change background color on hover */
+      .my-button:hover {
+        background-color: #eebc1d;
+      }
     </style>
   </head>
   <body>
@@ -75,6 +90,7 @@
         By consciously regulating the breath, we tap into the body's innate
         ability to promote relaxation and reduce stress.
         <br />
+        <br />
         <!-- <div class="container">
       <a href="./breath.html">
         <button class="button">START>>></button>
@@ -84,8 +100,8 @@
     </div>
     <div class="last">
       <a href="practice.html"
-        ><img src="btnstyle.png" alt="" style="width: 6cm"
-      /></a>
+        ><button class="my-button">Practice Asanas</button></a
+      >
     </div>
   </body>
 </html>
