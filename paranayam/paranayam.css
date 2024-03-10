@@ -15,47 +15,38 @@ body {
 }
 .left {
   color: #ffd700;
-  width: 75vh;
+  width: 30vw;
   margin-bottom: 30px;
   margin-left: 60px;
   margin-top: 50px;
-  height: 8cm;
   text-align: center;
   font-size: 1.2cm;
-  border-radius: 1.5cm;
-  /* background-color: white; */
 }
 .right {
-  border-radius: 40px;
   background-color: white;
-  /* height: 2cm; */
   margin-bottom: 10px;
   margin-right: 50px;
-  /* margin-top: 30px; */
 }
 .second {
   display: flex;
   justify-content: space-between;
-  /* margin-bottom: 290px; */
+  flex-wrap: wrap;
 }
 .lefts {
   margin-left: 60px;
-  height: 3cm;
-  width: 30vh;
-  /* margin-bottom: 50px; */
-  /* margin-top: 200px; */
 }
 .rights {
   color: #850785;
   margin-bottom: 10px;
   margin-right: 35px;
   margin-top: 20px;
-  height: 8cm;
-  width: 75vh;
+  /* margin-left: 50%; */
+  width: 40vw;
   font-size: 1cm;
 }
 .last {
   margin-bottom: 5px;
   text-decoration: none;
   display: flex;
+  justify-content: center;
 }
