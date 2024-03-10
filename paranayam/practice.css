@@ -41,13 +41,13 @@ a {
   .top {
     font-size: 1.5cm; /* Decrease font size for smaller screens */
   }
-  .first .left {
+  /* .first .left {
     font-size: 0.7cm;
     font-weight: 800;
     color: black;
     padding-bottom: 3cm;
     padding-right: 1.5cm;
-  }
+  } */
   .first {
     display: flex;
     flex-direction: column;
