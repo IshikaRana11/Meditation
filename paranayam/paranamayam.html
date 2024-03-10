@@ -5,72 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./paranayam.css" />
+    <style>
+      /* Mobile Responsive CSS */
+      @media only screen and (max-width: 768px) {
+        body {
+          background-image: none; /* Remove background image for better readability */
+        }
+
+        .top {
+          font-size: 1cm; /* Decrease font size for smaller screens */
+          text-align: center;
+        }
+
+        .first,
+        .second {
+          flex-direction: column; /* Change layout to vertical for smaller screens */
+          align-items: center; /* Center align items */
+        }
+
+        .left,
+        .right,
+        .lefts,
+        .rights {
+          max-width: 100%;
+          overflow: hidden;
+          margin: 20px auto; /* Center align */
+        }
+
+        .left img,
+        .right img,
+        .lefts img,
+        .rights img {
+          width: 100%; /* Ensure images resize to fit container */
+          height: auto; /* Maintain aspect ratio */
+          display: block; /* Remove any default inline spacing */
+        }
+
+        .right,
+        .rights {
+          border-radius: 30px; /* Decrease border radius */
+        }
+
+        .left,
+        .lefts {
+          font-size: 0.8cm; /* Decrease font size */
+        }
+
+        .rights {
+          font-size: 0.6cm; /* Decrease font size */
+        }
+
+        .link {
+          text-align: center; /* Center align */
+          margin-top: 20px; /* Adjust margin for better spacing */
+        }
+      }
+    </style>
   </head>
-  <style>
-    /* Mobile Responsive CSS */
-    @media only screen and (max-width: 768px) {
-      body {
-        background-image: none; /* Remove background image for better readability */
-      }
-
-      .top {
-        font-size: 1cm; /* Decrease font size for smaller screens */
-        text-align: center;
-      }
-
-      .first {
-        flex-direction: column; /* Change layout to vertical for smaller screens */
-        align-items: center; /* Center align items */
-      }
-
-      .left {
-        max-width: 100%;
-        overflow: hidden;
-        margin: 20px auto; /* Center align */
-        border-radius: 1cm; /* Decrease border radius */
-        font-size: 0.8cm; /* Decrease font size */
-      }
-
-      .right {
-        max-width: 100%;
-        overflow: hidden;
-        margin: 20px auto; /* Center align */
-        border-radius: 30px; /* Decrease border radius */
-        height: auto; /* Adjust height automatically based on content */
-      }
-
-      .second {
-        flex-direction: column; /* Change layout to vertical for smaller screens */
-        align-items: center; /* Center align items */
-      }
-
-      .lefts {
-        max-width: 100%;
-        overflow: hidden;
-        margin: 20px auto; /* Center align */
-        margin-top: 20px; /* Increase margin for better spacing */
-        max-width: 100%; /* Set max-width to ensure image fits within screen */
-        height: auto; /* Adjust height automatically based on content */
-      }
-
-      .rights {
-        max-width: 100%;
-        overflow: hidden;
-        margin: 20px auto; /* Center align */
-        border-radius: 30px; /* Decrease border radius */
-        font-size: 0.6cm; /* Decrease font size */
-      }
-
-      /* .container {
-      margin-top: 20px; /* Adjust margin for better spacing */
-      /* } */
-
-      .link {
-        margin-top: 0; /* Center align */
-        /* text-align: center; */
-      }
-    }
-  </style>
   <body>
     <h1 class="top">HARE KRISHNA!</h1>
     <div class="first">
@@ -80,12 +71,12 @@
         spiritual growth.
       </div>
       <div class="right">
-        <img src="fright.jpg" />
+        <img src="fright.jpg" alt="Image" />
       </div>
     </div>
     <div class="second">
       <div class="lefts">
-        <img src="breath.png" />
+        <img src="breath.png" alt="Image" />
       </div>
       <div class="rights">
         Breathing exercises, often overlooked in our fast-paced lives, are
@@ -93,10 +84,10 @@
         By consciously regulating the breath, we tap into the body's innate
         ability to promote relaxation and reduce stress
         <!-- <div class="container">
-          <a href="./breath.html">
-            <button class="button">START>>></button>
-          </a>
-        </div> -->
+      <a href="./breath.html">
+        <button class="button">START>>></button>
+      </a>
+    </div> -->
       </div>
     </div>
     <div class="link">
