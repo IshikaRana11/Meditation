@@ -5,29 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <style>
-    /* CSS for Responsive Video */
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
-      padding-top: 30px;
-      height: 0;
-      overflow: hidden;
-    }
+  <style>  
+p { 
+font-size: 16px; 
+line-height: 1.5; 
+} 
+@media only screen and (max-width: 768px) { 
+p { 
+  font-size: 14px; 
+  line-height: 1.4; 
+}
+} 
+body {  
+font-family: Arial, sans-serif;  
+margin: 0;  
+padding: 0;  
+background-image: url('Gradient-Zoom-Background.jpg');  
+background-repeat: no-repeat;  
+background-size: cover;  
+}  
 
-    .video-container iframe,
-    .video-container object,
-    .video-container embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+.video-container {  
+width: 100%;  
+max-width: 1000px;
+margin: 0 auto;  
+}  
+
+video {  
+width: 100%;  
+height: auto;  
+}  
+
+.content {  
+padding: 20px;  
+}
+</style>  
   <body>
-    <div class="video-container">
-      <iframe src="meditation.mp4" frameborder="0" allowfullscreen></iframe>
+    <div class="content">
+      <h1>
+        <b>
+          Meditation is a practice that has been around for thousands of years
+          and is present in various forms across different cultures and
+          spiritual traditions. It involves training the mind to achieve a state
+          of mental clarity, emotional calmness, and heightened awareness. While
+          meditation has historically been associated with religious or
+          spiritual practices, it has gained popularity in secular contexts as
+          well, particularly for its potential health benefits.
+        </b>
+      </h1>
+      <p>  
+        <h2>  
+          <br><br> 
+          <i>Types of meditation   </i>
+          <br><br> 
+          1.<i>Meditation: </i>Mindfulness meditation involves focusing the mind on the present moment, typically by paying attention to the breath, bodily sensations, thoughts, or emotions without judgment. It aims to cultivate a non-reactive awareness of one's internal and external experiences, promoting emotional regulation and stress reduction.
+          <br><br>
+          2.<i>Meditation (TM):</i> TM is a technique where practitioners repeat a specific mantra silently to themselves. This form of meditation aims to induce a state of deep relaxation and reduce stress, promoting overall well-being.
+          <br><br>
+          3.<i>Loving-Kindness Meditation (Metta)</i>: Metta meditation involves cultivating feelings of compassion, kindness, and goodwill towards oneself and others. It aims to promote positive emotions, empathy, and a sense of interconnectedness with others.
+          <br><br>
+          4.<i>Visualization Meditation: </i>Visualization meditation involves mentally picturing a peaceful scene, desired outcome, or positive imagery. It is used to enhance relaxation, reduce anxiety, and promote goal achievement through the power of mental imagery.
+          <br><br>
+          5.<i>Body Scan Meditation: </i>In this practice, attention is systematically directed to different parts of the body, usually starting from the toes and moving upwards. It helps increase body awareness, release tension, and promote relaxation.
+          <br><br>
+          6.<i>Focused Attention Meditation:</i>This involves concentrating the mind on a single object, such as a candle flame, a sound, or a specific thought. It aims to improve concentration, mental clarity, and cognitive control.
+          <br><br>
     </div>
+    <div class="video-container">  
+      <video controls>  
+          <source src="meditation.mp4" type="video/mp4">  
+      </video>  
+  </div>   
   </body>
 </html>
