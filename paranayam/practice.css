@@ -53,7 +53,6 @@ a {
     flex-direction: column;
     width: 90vw;
     border: 1px solid black;
-    /* padding: 1cm; */
     background-color: white;
     margin: 20px auto;
     border-radius: 1cm;
@@ -65,7 +64,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 2cm; */
   }
 
   img {
