@@ -18,20 +18,20 @@ body {
   width: 75vh;
   margin-bottom: 30px;
   margin-left: 60px;
-  margin-top: 30px;
+  margin-top: 50px;
   height: 8cm;
   text-align: center;
-  font-size: 1.5cm;
+  font-size: 1.2cm;
   border-radius: 1.5cm;
   /* background-color: white; */
 }
 .right {
   border-radius: 40px;
   background-color: white;
-  height: 5cm;
-  margin-bottom: 30px;
+  /* height: 2cm; */
+  margin-bottom: 10px;
   margin-right: 50px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .second {
   display: flex;
@@ -40,45 +40,24 @@ body {
 }
 .lefts {
   margin-left: 60px;
-  height: 5cm;
-  width: 60vh;
-  margin-top: 200px;
+  height: 3cm;
+  width: 30vh;
+  /* margin-top: 200px; */
 }
 .rights {
   color: #850785;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-right: 35px;
-  margin-top: 200px;
+  margin-top: 20px;
   height: 8cm;
   width: 75vh;
-  font-size: 1.2cm;
+  font-size: 1cm;
 }
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-}
-.button {
-  background-color: #800080;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.button:hover {
-  background-color: #663399;
-}
-
-.button::before {
-  content: "\1F54F";
-  font-size: 20px;
-  margin-right: 5px;
 }
 a {
   text-decoration: none;

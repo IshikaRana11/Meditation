@@ -8,10 +8,10 @@
     <style>
       /* Mobile Responsive CSS */
       @media only screen and (max-width: 768px) {
-        body {
-          background-image: none; /* Remove background image for better readability */
+        */ body {
+          background-image: none; /* Remove background image for better readability
+        }*/
         }
-
         .top {
           font-size: 1cm; /* Decrease font size for smaller screens */
           text-align: center;
@@ -36,11 +36,11 @@
         .right img,
         .lefts img,
         .rights img {
-          width: 100%; /* Ensure images resize to fit container */
+          max-width: 100%; /* Ensure images resize to fit container */
           height: auto; /* Maintain aspect ratio */
           display: block; /* Remove any default inline spacing */
+          margin: 0 auto; / /* Remove any default inline spacing */
         }
-
         .right,
         .rights {
           border-radius: 30px; /* Decrease border radius */
@@ -48,16 +48,11 @@
 
         .left,
         .lefts {
-          font-size: 0.8cm; /* Decrease font size */
+          font-size: 0.9cm; /* Decrease font size */
         }
 
         .rights {
-          font-size: 0.6cm; /* Decrease font size */
-        }
-
-        .link {
-          text-align: center; /* Center align */
-          margin-top: 20px; /* Adjust margin for better spacing */
+          font-size: 0.8cm; /* Decrease font size */
         }
       }
     </style>
