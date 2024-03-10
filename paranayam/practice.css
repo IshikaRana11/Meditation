@@ -1,4 +1,4 @@
-.top {
+/* .top {
   color: #362c05;
   text-align: center;
   font-size: 2cm;
@@ -32,40 +32,48 @@ img {
 }
 a {
   text-decoration: none;
+} */
+/* @media only screen and (max-width: 768px) { */
+body {
+  background-image: url("wp.jpg");
 }
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: #013220; /* Change background color */
-  }
 
-  .top {
-    font-size: 1.5cm; /* Decrease font size for smaller screens */
-  }
-
-  .first {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    margin: 1cm;
-    padding: 1cm;
-    background-color: white;
-    border-radius: 1cm;
-  }
-
-  .first .right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  img {
-    width: 100%; /* Make images responsive */
-    height: auto; /* Ensure aspect ratio is maintained */
-    margin: 0; /* Reset margin */
-  }
-
-  a {
-    display: block; /* Ensure links take full width */
-    margin-bottom: 1cm; /* Add space between links */
-  }
+.top {
+  font-size: 1.5cm; /* Decrease font size for smaller screens */
 }
+.first .left {
+  font-size: 0.7cm;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  padding-bottom: 3cm;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 1cm;
+  padding: 1cm;
+  background-color: white;
+  border-radius: 1cm;
+  background-image: url("asana11.jpg");
+}
+
+.first .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Ensure aspect ratio is maintained */
+  margin: 0; /* Reset margin */
+}
+
+a {
+  display: block; /* Ensure links take full width */
+  margin-bottom: 1cm; /* Add space between links */
+  text-decoration: none;
+}
+/* } */
