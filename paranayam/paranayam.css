@@ -82,7 +82,6 @@ body {
 }
 a {
   text-decoration: none;
-}
-.link {
-  margin-left: 18cm;
+  display: flex;
+  justify-content: center;
 }
