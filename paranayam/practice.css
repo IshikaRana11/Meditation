@@ -43,7 +43,7 @@ a {
   }
   .first .left {
     font-size: 0.7cm;
-    font-weight: 800;
+    /* font-weight: 800; */
     color: black;
     padding-bottom: 3cm;
     padding-right: 1.5cm;
