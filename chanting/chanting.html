@@ -6,70 +6,71 @@
     <title>Button Click Counter</title>
   </head>
   <body>
-    <style> 
-    @media only screen and (max-width: 768px) { 
-        body{ 
-            margin-top: 45%; 
-        } 
-    }
-      body { 
-              margin-right: 17%; 
-              padding: 0; 
-              background-image: url('backG.jpg'); 
-              /* background-repeat: no-repeat;  */
-              background-size: cover; 
-            } 
-       
-            .video-container { 
-              width: 100%; 
-              max-width: 800px; /* Adjust as needed */ 
-              margin: 0 auto; 
-            } 
-       
-            video { 
-              width: 100%; 
-              height: auto; 
-            } 
-       
-            .content { 
-              padding: 20px; 
-            } 
-       
-            /* Base button styles */ 
-            #play-button { 
-              display: inline-block; 
-              padding: 10px 20px; 
-              font-size: 16px; 
-              background-color: #d4af37; 
-              border: none; 
-              border-radius: 5px; 
-              color: #fff; 
-              text-align: center; 
-              text-decoration: none; 
-              cursor: pointer; 
-              position: relative; 
-              overflow: hidden; 
-            } 
-       
-            /* Ancient-style background */ 
-            #play-button::before { 
-              content: ""; 
-              position: absolute; 
-              top: 0; 
-              left: 0; 
-              width: 100%; 
-              height: 100%; 
-              background-image: url("ancient.jpg"); 
-              opacity: 0.2; 
-              z-index: -1; 
-              transition: opacity 0.3s ease; 
-            } 
-       
-            /* Hover effect */ 
-            #play-button:hover::before { 
-              opacity: 0.4; /* Darker background on hover */ 
-            } 
-          </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @media only screen and (max-width: 768px) {
+        body {
+          margin-top: 45%;
+        }
+      }
+      body {
+        margin-right: 17%;
+        padding: 0;
+        background-image: url("backG.jpg");
+
+        background-size: cover;
+      }
+
+      .video-container {
+        width: 100%;
+        max-width: 800px; /* Adjust as needed */
+        margin: 0 auto;
+      }
+
+      video {
+        width: 100%;
+        height: auto;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      /* Base button styles */
+      #play-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #d4af37;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* Ancient-style background */
+      #play-button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("ancient.jpg");
+        opacity: 0.2;
+        z-index: -1;
+        transition: opacity 0.3s ease;
+      }
+
+      /* Hover effect */
+      #play-button:hover::before {
+        opacity: 0.4; /* Darker background on hover */
+      }
+    </style>
     <div class="video-container">
       <video id="my-video" preload="auto">
         <source src="chantV.mp4" type="video/mp4" />
@@ -79,7 +80,7 @@
       <br />
       <br />
       <h2>
-        <b>Number Of Chants:<span id="display">0
+        <b>Button Clicked <span id="display">0</span> Times</b>
       </h2>
       <h2>
         <b>Number of Rotations: <span id="rotations">0</span></b>
