@@ -6,25 +6,34 @@
     <title>Button Click Counter</title>
   </head>
   <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      body {
-        background-image: url("backG.jpg");
-        background-size: cover;
-        margin-left: 25%;
+      @media only screen and (max-width: 768px) {
+        body {
+          margin-top: 45%;
+        }
       }
+      body {
+        margin-right: 17%;
+        padding: 0;
+        background-image: url("backG.jpg");
+
+        background-size: cover;
+      }
+
       .video-container {
-        position: relative;
-        width: 350px;
+        width: 100%;
+        max-width: 800px; /* Adjust as needed */
+        margin: 0 auto;
       }
 
       video {
-        width: 200%;
-        display: block;
+        width: 100%;
+        height: auto;
       }
 
-      /* Hide default video controls */
-      video::-webkit-media-controls {
-        display: none;
+      .content {
+        padding: 20px;
       }
 
       /* Base button styles */
@@ -62,48 +71,50 @@
         opacity: 0.4; /* Darker background on hover */
       }
     </style>
-    <div class="video-container">
-      <video id="my-video" preload="auto">
-        <source src="chant.mp4" type="video/mp4" />
-      </video>
-      <br />
-      <button id="play-button">CHANT</button>
-      <br />
-      <br />
-      <h2>
-        <b>Button Clicked <span id="display">0</span> Times</b>
-      </h2>
-      <h2>
-        <b>Number of Rotations: <span id="rotations">0</span></b>
-      </h2>
-    </div>
-
-    <script>
-      const video = document.getElementById("my-video");
-      const playButton = document.getElementById("play-button");
-      const displayCount = document.getElementById("display");
-      const rotationsCount = document.getElementById("rotations");
-
-      let clickCount = 0;
-      let rotationCount = 0;
-
-      playButton.addEventListener("click", function () {
-        clickCount++;
-        displayCount.textContent = clickCount;
-
-        // Check if button has been clicked 108 times
-        if (clickCount % 108 === 0) {
-          // Reset button count to 0
-          clickCount = 0;
-
-          // Increment the rotations count
-          rotationCount++;
-          rotationsCount.textContent = rotationCount;
-        }
-
-        video.currentTime = 0; // Reset video to start
-        video.play();
-      });
-    </script>
+    <div class="video-container"> 
+      <video id="my-video" preload="auto"> 
+        <source src="chant.mp4" type="video/mp4" /> 
+      </video> 
+      <br /> 
+      <button id="play-button">CHANT</button> 
+      <br /> 
+      <br /> 
+      <h2> 
+        <b>Number of Chants <span id="display">0 
+      </h2> 
+      <h2> 
+        <b>Number of Rotations: <span id="rotations">0</span></b> 
+      </h2> 
+    </div> 
+ 
+    <script> 
+      const video = document.getElementById("my-video"); 
+      const playButton = document.getElementById("play-button"); 
+      const displayCount = document.getElementById("display"); 
+      const rotationsCount = document.getElementById("rotations"); 
+ 
+      let clickCount = 0; 
+      let rotationCount = 0; 
+ 
+      playButton.addEventListener("click", function () { 
+        clickCount++; 
+        displayCount.textContent = clickCount; 
+ 
+        // Check if button has been clicked 108 times 
+        if (clickCount % 108 === 0) { 
+          // Reset button count to 0 
+          clickCount = 0; 
+ 
+          // Increment the rotations count 
+          rotationCount++; 
+          rotationsCount.textContent = rotationCount; 
+        } 
+ 
+        video.currentTime = 0; // Reset video to start 
+        video.play(); 
+      }); 
+    </script> 
+  </body> 
+</html>
   </body>
 </html>
