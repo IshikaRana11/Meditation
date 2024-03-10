@@ -6,34 +6,25 @@
     <title>Button Click Counter</title>
   </head>
   <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      /* @media only screen and (max-width: 768px) {
-        body {
-          margin-top: 45%;
-        }
-      } */
       body {
-        margin-right: 17%;
-        padding: 0;
         background-image: url("backG.jpg");
-
         background-size: cover;
+        margin-left: 25%;
       }
-
       .video-container {
-        width: 100%;
-        max-width: 800px; /* Adjust as needed */
-        margin: 0 auto;
+        position: relative;
+        width: 350px;
       }
 
       video {
-        width: 100%;
-        height: auto;
+        width: 200%;
+        display: block;
       }
 
-      .content {
-        padding: 20px;
+      /* Hide default video controls */
+      video::-webkit-media-controls {
+        display: none;
       }
 
       /* Base button styles */
@@ -109,6 +100,7 @@
           rotationCount++;
           rotationsCount.textContent = rotationCount;
         }
+
         video.currentTime = 0; // Reset video to start
         video.play();
       });
